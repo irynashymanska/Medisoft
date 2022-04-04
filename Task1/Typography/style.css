@@ -1,0 +1,88 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
+@import url('http://fonts.cdnfonts.com/css/sf-pro-text');
+
+body {
+    background-color:  #E5E5E5;
+    color: #00194C;
+    font-weight: 600;
+    font-style: normal; 
+    display: flex;
+    align-items: center;
+}
+
+table{
+    position: relative;
+    width: 1300px;
+    height: 1425px;
+    background: #FFFFFF;
+    font-family: 'SF Pro Text', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+th {background: #E6EEFF;}
+td {border: 1px solid rgba(0, 82, 255, 0.16);}
+
+h1 {
+    font-size: 32px;
+    line-height: 42px;
+}
+h2 {
+    font-size: 28px;
+    line-height: 36px;
+ }
+ h3 {
+    font-size: 22px;
+    line-height: 30px;
+ }
+ h4 {
+    font-size: 20px;
+    line-height: 28px;
+ }
+ h5 {
+    font-size: 18px;
+    line-height: 26px;
+ }
+ h6 {
+    font-size: 16px;
+    line-height: 24px;
+ }
+
+ p { 
+     font-weight: 400;
+     color:#002166;
+}
+.inter
+{
+    font-family: 'Inter', sans-serif;
+}
+.sfdisplay
+{
+    font-family: 'SF Pro Display', sans-serif;
+}
+.sftext
+{
+    font-family: 'SF Pro Text', sans-serif;
+}
+.p1 {
+    font-size: 20px;
+    line-height: 26px;
+}
+.p2 {
+    font-size: 18px;
+    line-height: 26px;
+}
+.p3 { 
+    font-size: 16px;
+    line-height: 24px;
+}
+.p4 { 
+    font-size: 14px;
+    line-height: 22px;
+}
+
